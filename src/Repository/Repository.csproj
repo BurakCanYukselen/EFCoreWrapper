@@ -10,8 +10,8 @@
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <RootNamespace>EFCoreWrapper</RootNamespace>
     <AssemblyName>EFCoreWrapper</AssemblyName>
-    <Version>1.0.4</Version>
-    <PackageReleaseNotes>dbcontext constactor fix</PackageReleaseNotes>
+    <Version>1.0.5</Version>
+    <PackageReleaseNotes>- extension name fix</PackageReleaseNotes>
     <RepositoryUrl>https://gitlab.com/burakcanyukselen/efcorewrapper</RepositoryUrl>
     <PackageTags>Entity Framework Core</PackageTags>
   </PropertyGroup>
