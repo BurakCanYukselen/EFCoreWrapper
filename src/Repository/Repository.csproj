@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <PackageId>EFCoreWrapper</PackageId>
+    <Authors>Burak Can Yükselen</Authors>
+    <Product>Entity Framework Wrapper</Product>
+    <Description>Wrapper for entity framework.</Description>
   </PropertyGroup>
 
   <ItemGroup>
