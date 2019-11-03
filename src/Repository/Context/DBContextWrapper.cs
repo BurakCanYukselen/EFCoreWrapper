@@ -8,6 +8,6 @@ namespace EFCoreWrapper.Context
 {
     public class DBContextWrapper : DbContext
     {
-        public DBContextWrapper(DbContextOptions<DBContextWrapper> options) : base(options) { }
+        public DBContextWrapper(DbContextOptions options) : base(options) { }
     }
 }

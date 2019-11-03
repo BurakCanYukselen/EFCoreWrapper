@@ -12,6 +12,6 @@ namespace EFCoreWrapper.Context
     public class IdentityDBContextWrapper<AppUser> : IdentityDbContext<AppUser>
         where AppUser : IdentityUser
     {
-        public IdentityDBContextWrapper(DbContextOptions<IdentityDBContextWrapper<AppUser>> options) : base(options) { }
+        public IdentityDBContextWrapper(DbContextOptions options) : base(options) { }
     }
 }
