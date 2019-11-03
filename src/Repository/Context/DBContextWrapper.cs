@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Repository.Context
+namespace EFCoreWrapper.Context
 {
     public class DBContextWrapper : DbContext
     {

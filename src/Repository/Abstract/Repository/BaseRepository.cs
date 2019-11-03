@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Repository.Abstract.Repository.Interface;
-using Repository.Context;
-using Repository.Response;
+using EFCoreWrapper.Abstract.EFCoreWrapper.Interface;
+using EFCoreWrapper.Context;
+using EFCoreWrapper.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository.Abstract.Repository
+namespace EFCoreWrapper.Abstract.Repository
 {
     public abstract class BaseRepository<DBContext, Entity>: IBaseRepository<Entity>
         where DBContext : DbContext

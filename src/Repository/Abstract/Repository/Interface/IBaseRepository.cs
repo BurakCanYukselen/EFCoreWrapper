@@ -1,11 +1,11 @@
-﻿using Repository.Response;
+﻿using EFCoreWrapper.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository.Abstract.Repository.Interface
+namespace EFCoreWrapper.Abstract.EFCoreWrapper.Interface
 {
     public interface IBaseRepository<Entity>
         where Entity : class, new()

@@ -1,8 +1,8 @@
-﻿using Repository.Abstract.Entity.Interface;
+﻿using EFCoreWrapper.Abstract.Entity.Interface;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Repository.Abstract.Entity
+namespace EFCoreWrapper.Abstract.Entity
 {
     public abstract class BaseEntity : IConsistentEntity
     {

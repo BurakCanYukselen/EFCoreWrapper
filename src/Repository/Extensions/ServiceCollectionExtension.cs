@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Repository.Context;
+using EFCoreWrapper.Context;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Repository.Extensions
+namespace EFCoreWrapper.Extensions
 {
     static class ServiceCollectionExtension
     {

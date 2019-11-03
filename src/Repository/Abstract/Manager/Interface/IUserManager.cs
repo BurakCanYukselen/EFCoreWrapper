@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Repository.Abstract.Manager.Interface
+namespace EFCoreWrapper.Abstract.Manager.Interface
 {
     public interface IUserManager
     {

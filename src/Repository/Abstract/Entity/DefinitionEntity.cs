@@ -1,9 +1,9 @@
-﻿using Repository.Abstract.Entity.Interface;
+﻿using EFCoreWrapper.Abstract.Entity.Interface;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Repository.Abstract.Entity
+namespace EFCoreWrapper.Abstract.Entity
 {
     public abstract class DefinitionEntity : AuditableEntity, IDefinitionEntity
     {

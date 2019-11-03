@@ -8,6 +8,10 @@
     <Description>Wrapper for entity framework.</Description>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <RootNamespace>EFCoreWrapper</RootNamespace>
+    <AssemblyName>EFCoreWrapper</AssemblyName>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Namespace fix</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

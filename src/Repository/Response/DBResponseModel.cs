@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Repository.Response
+namespace EFCoreWrapper.Response
 {
     public class DBResponseModel<T> : DBResponseModel
     {

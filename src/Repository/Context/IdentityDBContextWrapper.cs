@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Repository.Context
+namespace EFCoreWrapper.Context
 {
     public class IdentityDBContextWrapper<AppUser> : IdentityDbContext<AppUser>
         where AppUser : IdentityUser

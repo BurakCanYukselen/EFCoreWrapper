@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Repository.Response;
+using EFCoreWrapper.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository.Abstract.Manager
+namespace EFCoreWrapper.Abstract.Manager
 {
     public abstract class BaseUserManager<AppUser> : UserManager<AppUser>
         where AppUser : IdentityUser

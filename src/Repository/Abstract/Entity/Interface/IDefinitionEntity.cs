@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Repository.Abstract.Entity.Interface
+namespace EFCoreWrapper.Abstract.Entity.Interface
 {
     public interface IDefinitionEntity
     {
