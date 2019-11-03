@@ -8,7 +8,7 @@ using System.Text;
 
 namespace EFCoreWrapper.Extensions
 {
-    static class ServiceCollectionExtension
+    public static class ServiceCollectionExtension
     {
         public static void AddEFCoreWrapper<DBContext>(this IServiceCollection services, Action<DbContextOptionsBuilder> optionsAction)
             where DBContext : DBContextWrapper
@@ -22,7 +22,7 @@ namespace EFCoreWrapper.Extensions
         {
             services.AddDbContext<DBContext>(optionsAction);
             services.AddIdentityCore<AppUser>()
-                    .AddEntityFrameworkStores<DbContext>();
+                    .AddEntityFrameworkStores<DBContext>();
         }
     }
 }
