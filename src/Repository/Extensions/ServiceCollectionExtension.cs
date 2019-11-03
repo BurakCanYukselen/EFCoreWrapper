@@ -16,7 +16,7 @@ namespace EFCoreWrapper.Extensions
             services.AddDbContext<DBContext>(optionsAction);
         }
 
-        public static void AddEFCoreIndetityWrapper<DBContext, AppUser>(this IServiceCollection services, Action<DbContextOptionsBuilder> optionsAction)
+        public static void AddEFCoreIdentityWrapper<DBContext, AppUser>(this IServiceCollection services, Action<DbContextOptionsBuilder> optionsAction)
             where DBContext : IdentityDBContextWrapper<AppUser>
             where AppUser : IdentityUser
         {
